@@ -1,0 +1,61 @@
+.TestCaseTreeContainer {
+	position: relative;
+}
+.allure-ext-modal {
+	pointer-events: none;
+	display: none;
+	position: absolute;
+	z-index: 5;
+	width: calc(100% - 30px);
+	height: 600px;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	color: var(--text1);
+	fill: var(--text1);
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+}
+.modal-show .allure-ext-modal {
+	display: flex;
+}
+.modal-show .tippy-popper {
+		display: none;
+	}
+.tippy-content>div {
+	display: flex;
+	flex-direction: column;
+}
+.Menu__item:nth-child(2) {
+	order: -1;
+}
+.allure-ext-modal .Modal {
+	border: 1px solid var(--border3);
+	pointer-events: auto;
+}
+.allure-ext-modal form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	align-content: center;
+	justify-content: center;
+}
+.selected-info {
+	margin-bottom: 1em;
+}
+.selected-info h3 {
+	margin-top: 0;
+	font-size: 14px;
+}
+.selected-info ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.selected-info li {
+
+}
+.selected-info li span {
+	color: var(--text3);
+}
